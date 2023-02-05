@@ -6,7 +6,12 @@ body{
 }
 .header{
     display:flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    flex: auto;
+    padding: 16px;
+    background-color: #1f2937;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 ul{
     display: flex;
@@ -14,4 +19,4 @@ ul{
     margin: 0;
     padding: 0;
     gap: 16px
-  }
+}
